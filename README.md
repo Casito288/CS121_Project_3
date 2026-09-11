@@ -70,7 +70,4 @@ funtion swap (pointer int1, pointer int2);
       pVal3 = &val1
   if not, then (else)
     pVal3 = &val2
-
 ---
-
-
