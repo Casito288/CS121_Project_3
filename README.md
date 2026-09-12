@@ -60,14 +60,10 @@ function sort (array):
 
 swap
 ---
-constant MAX is max length of array
-
-funtion swap (pointer int1, pointer int2);
-  declare pointer'*' integer variable (val1, and val2, pVal3)
+funtion swap (int* a, int* b);
+  declare int temp
   
-  for i from zero to MAX -1; i + 1;
-    compare if val1 > val2
-      pVal3 = &val1
-  if not, then (else)
-    pVal3 = &val2
+  set temp = to value of a
+  set int a = to value of b
+  set int b = to value of temp
 ---
